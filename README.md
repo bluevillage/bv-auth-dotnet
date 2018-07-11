@@ -40,22 +40,6 @@ How to use the microservice
 1. Use an HTTP client such as [Postman][postman-url], to exercise the
    RESTful API.
 
-## Running the service with Visual Studio
-
-1. Install any edition of [Visual Studio 2017][vs-install-url] or Visual
-   Studio for Mac. When installing check ".NET Core" workload. If you
-   already have Visual Studio installed, then ensure you have
-   [.NET Core Tools for Visual Studio 2017][dotnetcore-tools-url]
-   installed (Windows only).
-1. Create an instance of [Azure Active Directory][aad-url] or simply
-   reuse the instance coming with your Azure subscription
-1. Get the Application ID and Issuer URL and store them in the
-   [service configuration](WebService/appsettings.ini).
-1. Open the solution in Visual Studio
-1. In Visual Studio, start the WebService project
-1. Use an HTTP client such as [Postman][postman-url], to exercise the
-   RESTful API.
-
 ## Running the service with Visual Studio or VS Code
 
 1. [Install .NET Core 2.x][dotnet-install]
